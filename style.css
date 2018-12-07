@@ -1,0 +1,83 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+form {
+  /* display: flex; */
+  /* display: block; */
+  /* display: run-in; */
+  /* display: grid; */
+  /* display: inline; */
+  /* display: inline-block; */
+  /* display: inline-flex; */
+  /* display: inline-grid; */
+  /* display: inline-table; */
+}
+
+input[type="checkbox"]{
+
+  background-color: blue;
+  box-shadow: 2px 2px 4px gray;
+  -o-box-shadow: 2px 2px 4px gray;
+  -webkit-box-shadow: 2px 2px 4px gray;
+
+  /* padding:2px; */
+}
+input[type="checkbox"]:checked{
+  background-color: blue;
+  box-shadow: 2px 20px 10px 10px green;
+  box-shadow: -2px 4px 4px green;
+
+}
+input[type="text"], input[type="number"] {
+  width: 180px;
+  border-radius: 16px;
+  height: 28px;
+  border: 0.8px solid #b0b0b0;
+  font-size: 14px;
+  margin: 10px;
+}
+
+input[type="text"]:valid, input[type="number"]:valid {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px #11ff11;
+  outline: none;
+}
+
+
+input[type="text"]:focus:invalid, input[type="number"]:valid {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 2px #ff1111;
+  outline: none;
+}
+
+select {
+  height: 28px;
+  border-radius: 16px;
+  width: 150px;
+  outline: none;
+}
+
+button {
+  font-weight: bold;
+  height: 30px;
+  border: 2px solid #d000f0;
+  border-radius: 16px;
+  box-shadow: 2px 2px #d000f0;
+  background: #fff;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #d000f0;
+  color: #fff;
+  box-shadow: 2px 2px #b0b0b0;
+  border: 2px solid #f0f0f0;
+}
